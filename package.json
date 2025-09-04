@@ -1,0 +1,36 @@
+{
+  "name": "chronoscribe",
+  "version": "1.0.0",
+  "description": "Desktop productivity app for scheduling, document creation, note-taking, and deadline management.",
+  "main": "src/main/main.js",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.3",
+    "electron": "^38.0.0",
+    "jest": "^30.1.3"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "electrone-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KytakBR/Chronoscribe.git"
+  },
+  "keywords": [
+    "electron",
+    "productivity",
+    "scheduler",
+    "notes",
+    "documents",
+    "deadlines",
+    "organizer"
+  ],
+  "author": "KytakBR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KytakBR/Chronoscribe/issues"
+  },
+  "homepage": "https://github.com/KytakBR/Chronoscribe#readme"
+}
